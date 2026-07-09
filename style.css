@@ -2117,12 +2117,12 @@ button {
     }
 
     .brand-name {
-        font-size: 1.3rem;
+        font-size: 1.0rem;
         line-height: 1.1;
     }
 
     .brand-tagline {
-        font-size: 0.8rem;
+        font-size: 0.65rem;
         letter-spacing: 0.02em;
     }
 
