@@ -1644,6 +1644,7 @@ button {
     margin-left: 2px;
     padding: 8px 14px 8px 10px;
 }
+
 /* Hover label — desktop only, slides out to the right */
 
 .floating-contact-button i {
@@ -1656,6 +1657,7 @@ button {
     width: 24px !important;
     height: 24px !important;
 }
+
 /* --- Footer --- */
 .main-footer {
     background-color: #071526;
@@ -2111,20 +2113,25 @@ button {
 @media (max-width: 768px) {
 
     .header-logo {
-        height: 42px;
+        height: 55px;
     }
 
     .brand-name {
-        font-size: 1.05rem;
-        line-height: 1.05;
+        font-size: 1.3rem;
+        line-height: 1.1;
     }
 
     .brand-tagline {
-        font-size: 0.62rem;
+        font-size: 0.8rem;
         letter-spacing: 0.02em;
     }
 
+    .header-container {
+        height: 64px;
+    }
+
     .logo-area {
-        gap: 8px;
+        gap: 6px;
+        max-width: calc(100% - 50px);
     }
 }
