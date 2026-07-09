@@ -2145,6 +2145,7 @@ button {
     }
 
     .hero-visual {
+        margin-top: -20px;
         order: 1;
     }
 
