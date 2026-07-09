@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <nav class="nav-menu" id="navMenu">
                             <ul>
                                 <li class="nav-item dropdown-parent">
-                                    <a href="${page === 'home' ? '#home' : 'index.html#home'}" class="nav-link dropdown-trigger ${page === 'home' ? 'active' : ''}">Home</a>
+                                    <a href="index.html" class="nav-link ${page === 'home' ? 'active' : ''}">Home</a>
                                     <div class="dropdown-menu">
                                         <a href="index.html#about" class="dropdown-link">About Us</a>
                                         <a href="index.html#why-choose-us" class="dropdown-link">Why Choose Us</a>
