@@ -1991,7 +1991,8 @@ button {
 
     /* Hero */
     .hero-section {
-        padding: 100px 0 60px 0;
+        
+        padding-top: 30px;
     }
 
     .hero-content {
@@ -2042,7 +2043,7 @@ button {
     }
 
     .floating-contact-bar {
-        gap: 4px;
+        top: 65%;
     }
 
     .back-to-top {
