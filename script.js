@@ -361,12 +361,14 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
-        trigger.addEventListener('click', (event) => {
-            if (!isDesktop()) {
-                event.preventDefault();
-                parent.classList.toggle('open');
-            }
-        });
+        if (trigger) {
+            trigger.addEventListener('click', (event) => {
+                if (!isDesktop()) {
+                    event.preventDefault();
+                    parent.classList.toggle('open');
+                }
+            });
+        }
     });
 
     document.addEventListener('click', (event) => {
