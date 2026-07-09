@@ -2137,3 +2137,18 @@ button {
         max-width: calc(100% - 50px);
     }
 }
+
+@media (max-width: 768px) {
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-visual {
+        order: 1;
+    }
+
+    .hero-content {
+        order: 2;
+    }
+}
